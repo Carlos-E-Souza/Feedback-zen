@@ -6,19 +6,15 @@ export const Container = styled.div`
     left: 0;
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 84%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 `
 
-export const MapMain = styled.div`
-    background-image: url("https://i.postimg.cc/ZYGQHmv1/map.png");
-    width: 60%;
-    height: 100%;
+export const YellowBallon = styled.img`
     position: absolute;
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    right: -20%;
-    top: -20%;
+    top: 4%;
+    left: 3%;
+    width: 10%;
+    height: 18%;
 `

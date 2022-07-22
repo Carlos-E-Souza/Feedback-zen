@@ -1,16 +1,20 @@
 import { FeedbackForm } from "./components/Form/FeedbackForm"
 import { MainFooter } from "./components/Footer/Footer"
-import { Map } from "./components/Map/Map"
-import { Container, MapMain } from "./App.style"
+import { Container, YellowBallon } from "./App.style"
+import yellowBallon from "./assets/yellowBallon.svg"
 import "./App.css"
+import { MapContainer } from "./components/Map/MapContainer"
 
 const App = () => {
     return (
-        <Container>
-            <FeedbackForm />
-            <MapMain />
+        <>
+            <Container>
+                <YellowBallon src={yellowBallon} />
+                <FeedbackForm />
+                <MapContainer />
+            </Container>
             <MainFooter />
-        </Container>
+        </>
     )
 }
 

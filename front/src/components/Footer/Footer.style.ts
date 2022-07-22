@@ -1,4 +1,3 @@
-import { symbol } from "joi"
 import styled from "styled-components"
 
 export const Footer = styled.div`
@@ -6,22 +5,26 @@ export const Footer = styled.div`
     left: 0;
     bottom: 0;
     overflow: hidden;
-    background-color: #d8d8d8;
+    background-color: #fafafa;
     width: 100%;
-    height: 20%;
+    height: 16%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border: 1px solid #d8d8d8;
 `
 
 export const PinkBallon = styled.img`
-    width: 214px;
-    height: 208px;
+    position: absolute;
+    width: 20%;
+    height: 140%;
 `
 
 export const Icons = styled.div`
-    width: 127px;
-    height: 16px;
+    position: absolute;
+    left: 20%;
+    width: 10%;
+    height: auto;
     display: flex;
     justify-content: space-around;
 `
@@ -33,7 +36,15 @@ export const Link = styled.a`
 export const GreenDoodle = styled.img`
     position: absolute;
     top: 0;
-    right: 10%;
-    width: 80px;
-    height: 97px;
+    right: 6%;
+    width: 10%;
+    height: 60%;
+`
+
+export const YellowBallon = styled.img`
+    position: absolute;
+    top: 30%;
+    left: 94%;
+    width: 6%;
+    height: 70%;
 `
