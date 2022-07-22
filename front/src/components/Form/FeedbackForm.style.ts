@@ -1,13 +1,17 @@
 import styled from "styled-components"
 
 export const Form = styled.form`
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
-    border: 2px solid #dcdcdc;
+    justify-content: center;
+    gap: 0.5rem;
     border-radius: 1rem;
-    padding: 1rem;
+    height: 80%;
+    position: absolute;
+    left: 12%;
+    color: #3e3e3e;
 `
 
 export const FormTitle = styled.h1`
@@ -15,11 +19,15 @@ export const FormTitle = styled.h1`
 `
 
 export const Input = styled.input`
-    width: 100%;
+    width: 90%;
+    max-width: 100%;
     font-size: 1rem;
+    padding: 1rem;
     height: 2rem;
     border: 1px solid #dcdcdc;
     border-radius: 0.2rem;
+    background: #ffffff;
+    color: #2d2d2d;
 `
 
 export const TextArea = styled.textarea`

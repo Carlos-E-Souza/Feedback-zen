@@ -1,5 +1,11 @@
 import { FC } from "react"
-import { Form, FormTitle, Input, SubmitButton, TextArea } from "./FormStyle"
+import {
+    Form,
+    FormTitle,
+    Input,
+    SubmitButton,
+    TextArea,
+} from "./FeedbackForm.style"
 
 interface FeedbackFormProps {}
 
